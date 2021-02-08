@@ -135,7 +135,7 @@ If you find this code useful in your research, please cite the following paper:
     @inproceedings{sun2021hgcf,
       title={HGCF: Hyperbolic Graph Convolution Networks forCollaborative Filtering},
       author={Jianing Sun, Zhaoyue Cheng, Saba Zuberi, Felipe Perez, Maksims Volkovs},
-      booktitle={WWW},
+      booktitle={Proc. Int. Conf. World Wide Web},
       year={2021}
     }
 
