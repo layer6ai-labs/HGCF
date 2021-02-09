@@ -5,7 +5,7 @@
 ## WWW'21 HGCF: Hyperbolic Graph Convolution Networks for Collaborative Filtering
 
 Authors: Jianing Sun*, Zhaoyue Cheng*, Saba Zuberi, Felipe Perez, [Maksims Volkovs](http://www.cs.toronto.edu/~mvolkovs)  
-[[paper coming soon]]
+[[paper](http://www.cs.toronto.edu/~mvolkovs/www2021_hgcf.pdf)]
 
 
 <a name="Environment"/>
