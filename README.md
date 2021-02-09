@@ -133,9 +133,9 @@ config_args = {
 If you find this code useful in your research, please cite the following paper:
 
     @inproceedings{sun2021hgcf,
-      title={HGCF: Hyperbolic Graph Convolution Networks forCollaborative Filtering},
+      title={HGCF: Hyperbolic Graph Convolution Networks for Collaborative Filtering},
       author={Jianing Sun, Zhaoyue Cheng, Saba Zuberi, Felipe Perez, Maksims Volkovs},
-      booktitle={Proc. Int. Conf. World Wide Web},
+      booktitle={Proceedings of International World Wide Web Conference},
       year={2021}
     }
 
