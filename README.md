@@ -27,7 +27,7 @@ tqdm 4.48.2
 
 1. Preprocess the [Amazon datasets](http://jmcauley.ucsd.edu/data/amazon) (CDs and Vinyl, Books), [Yelp2020 dataset](https://www.yelp.com/dataset/download), run this command:
 ```
-python utils.preprocessing.py --dataset [Amazon_CD|Amazon_Book|yelp] --read_path your_raw_data_file --save_path your_project_path
+python utils.preprocessing.py --dataset [Amazon_CD|Amazon_Book|yelp] --read_path your_raw_data_file 
 ```
 
 2. Train and evaluation HGCF:
