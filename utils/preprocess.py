@@ -1,5 +1,6 @@
 import tqdm 
 import json
+import os
 import pandas as pd
 import numpy as np
 from copy import deepcopy
@@ -140,5 +141,8 @@ if __name__ == "__main__":
     rating_matrix = generate_rating_matrix(inner_data_records, len(user_mapping), len(item_mapping))
     rating_matrix = rating_matrix.transpose()
     print(rating_matrix.nnz)
-    save_obj('./data/' + args.dataset + '/user_item_list', inner_data_records)
-
+    
+    if not os.path.exists('../data/' + args.dataset):
+        os.makedirs('../data/' + args.dataset)
+    
+    save_obj('../data/' + args.dataset + '/user_item_list', inner_data_records)
