@@ -94,7 +94,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataset", type=str, choices=['Amazon-CD', 'Amazon-Book', 'yelp'])
     parser.add_argument("--read_path", type=str)
-    parser.add_argument("--save_path", type=str)
     args = parser.parse_args()
 
     dir_path = args.read_path
@@ -141,5 +140,5 @@ if __name__ == "__main__":
     rating_matrix = generate_rating_matrix(inner_data_records, len(user_mapping), len(item_mapping))
     rating_matrix = rating_matrix.transpose()
     print(rating_matrix.nnz)
-    save_obj(args.save_path + './data/' + args.dataset + '/user_item_list', inner_data_records)
+    save_obj('./data/' + args.dataset + '/user_item_list', inner_data_records)
 
