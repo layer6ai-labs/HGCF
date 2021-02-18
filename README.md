@@ -119,7 +119,7 @@ config_args = {
         'margin': (0.2, 'margin value in the metric learning loss'),
     },
     'data_config': {
-        'dataset': ('Amazon-Book', 'which dataset to use'),
+        'dataset': ('yelp', 'which dataset to use'),
         'num_neg': (1, 'number of negative samples'),
         'test_ratio': (0.2, 'proportion of test edges for link prediction'),
         'norm_adj': ('True', 'whether to row-normalize the adjacency matrix'),
