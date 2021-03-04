@@ -22,7 +22,7 @@ config_args = {
         'network': ('resSumGCN', 'choice of StackGCNs, plainGCN, denseGCN, resSumGCN, resAddGCN'),
         'c': (1, 'hyperbolic radius, set to None for trainable curvature'),
         'num-layers': (4,  'number of hidden layers in encoder'),
-        'margin': (0.2, 'margin value in the metric learning loss'),
+        'margin': (0.1, 'margin value in the metric learning loss'),
     },
     'data_config': {
         'dataset': ('Amazon-CD', 'which dataset to use'),
