@@ -29,7 +29,7 @@ tqdm 4.48.2
 ```
 python utils.preprocessing.py --dataset [Amazon_CD|Amazon_Book|yelp] --read_path your_raw_data_file 
 ```
-_Update: Original Yelp data on the website has been updated by Yelp in 2021, and the 2020 version we used has been overwritten. Using our preprocessing script on the updated Yelp data will give different statistics and thus different results. We've uploaded our preprocessed .pkl file [here](https://github.com/layer6ai-labs/HGCF/tree/main/yelp20)._
+_Update: Original Yelp data on the website has been updated by Yelp in 2021, and the 2020 version we used has been overwritten. Using our preprocessing script on the updated Yelp data will give different statistics and thus different results. We've uploaded our preprocessed .pkl file of Yelp2020 [here](https://github.com/layer6ai-labs/HGCF/tree/main/yelp20)._
 
 
 2. Train and evaluation HGCF:
